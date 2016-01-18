@@ -56,8 +56,8 @@
     }
 
     $interval(function () { 
-      var roomInbox =  room.getInbox();
-      if (roomImbox.length!==$scope.inbox.length) {
+      var roomInbox = room.getInbox();
+      if (roomInbox.length!==$scope.inbox.length) {
         $scope.inbox = room.getInbox();
       }
     }, 100);
