@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Chat", 
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "node-debug app.js",
+    "test": "mocha"
+  },
+  "repository": {
+   "type": "git",
+   "url": "git+https://github.com/dmartz86/chat.git"
+ },
+ "author": "daniel",
+ "license": "MIT",
+  "keywords": [
+   "chat"
+  ],
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.4.4"
+  }
+}

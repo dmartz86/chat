@@ -1,0 +1,39 @@
+.right-menu {
+  padding-left: 0;
+}
+
+.page-menu {
+  z-index: 1;
+  position: fixed;
+  right: 80px;
+  width: 0;
+  height: 100%;
+  margin-right: -80px;
+  background: black;
+}
+
+.page-body {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+@media(min-width: 1024px) {
+  .right-menu {
+    padding-right: 80px;
+  }
+
+  .page-menu {
+    width: 80px;
+  }
+
+  .page-body {
+    padding: 20px;
+    position: relative;
+  }
+}
+
+.space {
+  padding-bottom: 20px;
+}
+
